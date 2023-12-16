@@ -25,6 +25,7 @@ button {
     padding: .5em; 
     border: none;
     cursor: pointer;
+    border-radius: 0.5em;
 }
 
 a {
