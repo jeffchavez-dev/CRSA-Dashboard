@@ -2,16 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
-button, a {
-    cursor: pointer;
-    color: black;
+button {
     background-color: aquamarine;
     padding: .5em; 
     border: none;
+}
+
+a {
+    color: black;
+    background-color: aquamarine;
     text-decoration: none;
 }
+
 button, a:hover {
     background-color: black;
 }
