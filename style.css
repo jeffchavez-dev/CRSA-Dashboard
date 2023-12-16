@@ -6,7 +6,8 @@
 }
 
 body {
-    background-image: url(/assets/reformation-wall-mur.jpg) center no-repeat;
+    background: url(/assets/reformation-wall-mur.jpg) center no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
