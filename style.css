@@ -2,23 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* text-align: center; */
 }
 
 body {
     background: url(/assets/reformation-wall-mur.jpg) center no-repeat;
     background-size: cover;
     height: 100vh;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     font-family: 'Times New Roman', Times, serif;
+    padding: 0.5em;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.dashboard {
-  margin: .5em;
-}
+
+
 
 button {
     background-color: aquamarine;
@@ -28,16 +26,22 @@ button {
     border-radius: 0.5em;
 }
 
-a {
+.lessons-btn {
     color: black;
     background-color: aquamarine;
     text-decoration: none;
 }
 
 button:hover, 
-a:hover, 
+.lessons-btn:hover, 
 button:focus,
-a:focus {
+.lessons-btn:focus {
     background-color: black;
     color: white;
+}
+
+footer {
+    position: absolute; 
+    bottom: .5em;
+    text-align: center;
 }
