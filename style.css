@@ -24,6 +24,7 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 0.5em;
+    display: inline;
 }
 
 .lessons-btn {
