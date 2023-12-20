@@ -24,13 +24,15 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 0.5em;
-    display: inline;
+    position: left;
 }
 
 .lessons-btn {
     color: black;
     background-color: aquamarine;
     text-decoration: none;
+    display: block;
+    
 }
 
 button:hover, 
