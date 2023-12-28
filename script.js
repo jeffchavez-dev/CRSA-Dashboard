@@ -6,6 +6,10 @@ const lessonArrays = [
     // Add more lessons as needed
 ];
 
+
+console.log(lessonArrays)
+
+
 // Get the lessons list container
 const lessonsList = document.getElementById("lessonsList");
 
