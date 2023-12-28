@@ -1,49 +1,49 @@
-
-// Sample arrays of lessons
-const lessonArrays = [
-    { name: "Lesson 1", array: [/* vocabulary for lesson 1 */] },
-    { name: "Lesson 2", array: [/* vocabulary for lesson 2 */] },
-    // Add more lessons as needed
-];
-
-
-console.log(lessonArrays)
+document.addEventListener("DOMContentLoaded", function () {
+    // Sample arrays of lessons
+    const lessonArrays = [
+        { name: "Lesson 1", array: [/* vocabulary for lesson 1 */] },
+        { name: "Lesson 2", array: [/* vocabulary for lesson 2 */] },
+        // Add more lessons as needed
+    ];
 
 
-// Get the lessons list container
-const lessonsList = document.getElementById("lessonsList");
+    console.log(lessonArrays)
 
-// Function to dynamically create lesson elements
-function createLessonElement(lessonName, lessonId) {
-    const listItem = document.createElement("li");
-    listItem.className = "lesson";
-    listItem.id = lessonId;
 
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.name = lessonId;
-    checkbox.value = lessonId;
-    checkbox.id = lessonId + "-checkbox"; // Add a unique ID for the checkbox
+    // Get the lessons list container
+    const lessonsList = document.getElementById("lessonsList");
 
-    const label = document.createElement("label");
-    label.htmlFor = checkbox.id;
-    label.textContent = lessonName;
+    // Function to dynamically create lesson elements
+    function createLessonElement(lessonName, lessonId) {
+        const listItem = document.createElement("li");
+        listItem.className = "lesson";
+        listItem.id = lessonId;
 
-    listItem.appendChild(checkbox);
-    listItem.appendChild(label);
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.name = lessonId;
+        checkbox.value = lessonId;
+        checkbox.id = lessonId + "-checkbox"; // Add a unique ID for the checkbox
 
-    return listItem;
-}
+        const label = document.createElement("label");
+        label.htmlFor = checkbox.id;
+        label.textContent = lessonName;
 
-// Function to add lessons to the list
-function addLessonsToDOM() {
-    lessonArrays.forEach((lesson, index) => {
-        const lessonId = `lesson-${index + 1}`;
-        const lessonElement = createLessonElement(lesson.name, lessonId);
-        lessonsList.appendChild(lessonElement);
-    });
-}
+        listItem.appendChild(checkbox);
+        listItem.appendChild(label);
 
-// Call the function to add lessons to the DOM
-addLessonsToDOM();
+        return listItem;
+    }
 
+    // Function to add lessons to the list
+    function addLessonsToDOM() {
+        lessonArrays.forEach((lesson, index) => {
+            const lessonId = `lesson-${index + 1}`;
+            const lessonElement = createLessonElement(lesson.name, lessonId);
+            lessonsList.appendChild(lessonElement);
+        });
+    }
+
+    // Call the function to add lessons to the DOM
+    addLessonsToDOM();
+});
