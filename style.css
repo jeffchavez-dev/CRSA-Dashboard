@@ -39,7 +39,6 @@ button:hover,
 .lessons-btn:hover, 
 button:focus,
 .lessons-btn:focus {
-    background-color: black;
     color: white;
 }
 
