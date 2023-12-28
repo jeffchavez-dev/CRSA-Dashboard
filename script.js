@@ -42,4 +42,4 @@ function addLessonsToDOM() {
 
 // Call the function to add lessons to the DOM
 addLessonsToDOM();
-</script>
+
