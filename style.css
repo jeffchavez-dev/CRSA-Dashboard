@@ -27,6 +27,7 @@ button {
     position: left;
 }
 
+a,
 .lessons-btn {
     color: black;
     background-color: aquamarine;
@@ -35,6 +36,7 @@ button {
     
 }
 
+a:hover,
 button:hover, 
 .lessons-btn:hover, 
 button:focus,
