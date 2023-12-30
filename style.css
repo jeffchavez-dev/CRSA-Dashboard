@@ -44,6 +44,12 @@ button:focus,
     color: white;
 }
 
+.back-btn {
+    position: absolute; 
+    bottom: 5em;
+    text-align: center;
+}
+
 footer {
     position: absolute; 
     bottom: .5em;
