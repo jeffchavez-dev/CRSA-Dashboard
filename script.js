@@ -1,8 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
+
     // Sample arrays of lessons
     const lessonArrays = [
         { name: "Lesson 1", array: [/* vocabulary for lesson 1 */] },
         { name: "Lesson 2", array: [/* vocabulary for lesson 2 */] },
+        { name: "Lesson 3", array: [/* vocabulary for lesson 2 */] },
         // Add more lessons as needed
     ];
 
@@ -46,4 +47,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Call the function to add lessons to the DOM
     addLessonsToDOM();
-});
+
