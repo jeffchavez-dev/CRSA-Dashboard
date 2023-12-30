@@ -43,6 +43,26 @@ button:focus,
     color: white;
 }
 
+.lessons {
+    display: flex;
+}
+.lesson {
+    margin: 1em;
+    padding: 1em;
+    border-radius: .2em;
+    background-color: bisque;
+    list-style-type: none;
+
+}
+
+.lesson:hover {
+    transform: scale(1.1);
+    transition: ease-in;
+}
+input {
+    display: none;
+}
+
 .back-btn {
     position: absolute; 
     bottom: 5em;
