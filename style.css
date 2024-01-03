@@ -52,6 +52,7 @@ button:focus,
     border-radius: .2em;
     background-color: bisque;
     list-style-type: none;
+    cursor: pointer;
 
 }
 
