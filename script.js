@@ -1,7 +1,23 @@
 
     // Sample arrays of lessons
     const lessonArrays = [
-        { name: "Lesson 1", array: [/* vocabulary for lesson 1 */] },
+        { name: "Lesson 1", array: 
+            [ {greek : "ἀγάπη, ἡ", gloss: "love"},
+            {greek : "γῆ ἡ" , gloss: "earth, land, ground (geology)"},
+            {greek : "ζωή ἡ", gloss: "life (zoo, zoology)"},
+            {greek : "φωνή, ἡ ", gloss: "voice, sound (phonetics, phonograph, phone)"},
+            {greek : "ἀλήθεια, ἡ", gloss: "truth"},
+            {greek : "ἁμαρτία, ἡ", gloss:  "sin (hamartiology—the theological study of sin)"},
+            {greek : "βασιλεία, ἡ" , gloss: "kingdom, reign (basilica)"},
+            {greek : "δόξα, ἡ" , gloss: "glory, majesty (doxology)"},
+            {greek : "ἐκκλησία, ἡ" , gloss: "congregation, assembly, church (ecclesiastical)"},
+            {greek : "ἡμέρα, ἡ" , gloss: "day (ephemeral, “for a day”)"},
+            {greek : "καρδία, ἡ", gloss:  "heart (cardiologist)"},
+            {greek : "δέ" , gloss: "and, but, now"},
+            {greek : "καί" , gloss: "and, even, also"},
+            {greek : "μέν" , gloss: "on the one hand, indeed"},
+            {greek : "ὁ, ἡ, τό" , gloss: "the"}] 
+    },
         { name: "Lesson 2", array: [/* vocabulary for lesson 2 */] },
         { name: "Lesson 3", array: [/* vocabulary for lesson 2 */] },
         { name: "Lesson 4", array: [/* vocabulary for lesson 2 */] },
