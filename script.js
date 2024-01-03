@@ -6,8 +6,8 @@
         { name: "Lesson 3", array: [/* vocabulary for lesson 2 */] },
         { name: "Lesson 4", array: [/* vocabulary for lesson 2 */] },
         { name: "Lesson 5", array: [/* vocabulary for lesson 2 */] },
-        { name: "Lesson 3", array: [/* vocabulary for lesson 2 */] },
-        { name: "Lesson 3", array: [/* vocabulary for lesson 2 */] },
+        { name: "Lesson 6", array: [/* vocabulary for lesson 2 */] },
+        { name: "Lesson 7", array: [/* vocabulary for lesson 2 */] },
         { name: "Lesson 3", array: [/* vocabulary for lesson 2 */] },
         { name: "Lesson 3", array: [/* vocabulary for lesson 2 */] },
         // Add more lessons as needed
